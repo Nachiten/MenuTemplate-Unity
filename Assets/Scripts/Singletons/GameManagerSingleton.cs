@@ -32,11 +32,6 @@ public class GameManagerSingleton : MonoBehaviour
     private void Awake()
     {
         inicializeInstance();
-        
-        GameObject referencia = GameObject.Find("_Reference");
-        Assert.IsNotNull(referencia);
-
-        Destroy(referencia);
     }
 
     /* -------------------------------------------------------------------------------- */

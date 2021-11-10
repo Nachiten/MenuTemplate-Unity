@@ -17,8 +17,7 @@ MonoBehaviour:
   materialHashCode: -77814423
   m_Version: 1.1.0
   m_SourceFontFileGUID: f1a5a6392dd00ca44aa8de6a6fe1a25b
-  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: f1a5a6392dd00ca44aa8de6a6fe1a25b,
-    type: 3}
+  m_SourceFontFile_EditorRef: {fileID: 12800000, guid: f1a5a6392dd00ca44aa8de6a6fe1a25b, type: 3}
   m_SourceFontFile: {fileID: 0}
   m_AtlasPopulationMode: 0
   m_FaceInfo:
@@ -1812,6 +1811,7 @@ MonoBehaviour:
   - {fileID: 2059850900684400582}
   m_AtlasTextureIndex: 0
   m_IsMultiAtlasTexturesEnabled: 0
+  m_ClearDynamicDataOnBuild: 0
   m_UsedGlyphRects:
   - m_X: 0
     m_Y: 0
@@ -2675,7 +2675,7 @@ Material:
     - _ColorMask: 15
     - _CullMode: 0
     - _Diffuse: 0.5
-    - _FaceDilate: 0
+    - _FaceDilate: 0.4
     - _FaceUVSpeedX: 0
     - _FaceUVSpeedY: 0
     - _GlowInner: 0.05
@@ -2689,12 +2689,12 @@ Material:
     - _OutlineSoftness: 0
     - _OutlineUVSpeedX: 0
     - _OutlineUVSpeedY: 0
-    - _OutlineWidth: 0
+    - _OutlineWidth: 0.221
     - _PerspectiveFilter: 0.875
     - _Reflectivity: 10
     - _ScaleRatioA: 0.85714287
-    - _ScaleRatioB: 0.6964286
-    - _ScaleRatioC: 0.6964286
+    - _ScaleRatioB: 0.35357141
+    - _ScaleRatioC: 0.35357141
     - _ScaleX: 1
     - _ScaleY: 1
     - _ShaderFlags: 0
